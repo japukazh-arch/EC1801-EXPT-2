@@ -1,6 +1,6 @@
 # EXPT 2 - Verification of Logic Gates
 ### SIMULATION AND VERIFICATION OF AND, OR, AND NOT GATES
-## Aim
+## Aim                                                                                                                                                                                          
 To design, implement, and verify the functionality of basic AND, OR, and NOT logic gates using Verilog HDL, and verify the functionality using Synopsys VCS and DVE.
 # Software Required
 •	Synopsys VCS
@@ -116,7 +116,6 @@ Verify that y_and = 1 only when a=1 AND b=1 — the single combination where bot
 Verify that y_or = 1 whenever a=1 OR b=1 (any input high forces the output high).
 Verify that y_not is always the exact complement of a, regardless of b.
 The waveform should agree with the truth table.
-<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/7d28ae99-fbaf-4442-bc64-2f3fbebe1f78" />
 
 # Expected Result
 The basic logic gates — AND, OR, and NOT — were realized using Verilog HDL:
@@ -126,6 +125,8 @@ Y_NOT = A'
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 Output
 # OUTPUT
+
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/7d28ae99-fbaf-4442-bc64-2f3fbebe1f78" /
 
 
  
