@@ -116,6 +116,7 @@ Verify that y_and = 1 only when a=1 AND b=1 — the single combination where bot
 Verify that y_or = 1 whenever a=1 OR b=1 (any input high forces the output high).
 Verify that y_not is always the exact complement of a, regardless of b.
 The waveform should agree with the truth table.
+
 <img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/df2e5d48-6aae-4d17-a616-2b260db5f2b6" />
 
 # Expected Result
@@ -148,7 +149,10 @@ Output
 •	Why is a VCD file generated?
 
 •	What is the purpose of ./simv?
+
 •	What is the purpose of DVE?
+
 •	What is the difference between simulation and synthesis?
+
 •	What is the difference between $dumpfile and $dumpvars?
 
