@@ -105,7 +105,7 @@ Other option
 dve -full64 &
 A DVE environment will open.
 
-DVE Waveform Verification
+# DVE Waveform Verification
 In DVE:
 Open the testbench hierarchy.
 Locate the signals: 
@@ -131,7 +131,7 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 # OUTPUT
 
 
-
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/df2e5d48-6aae-4d17-a616-2b260db5f2b6" />
 
  
 # Viva-Voce Questions
