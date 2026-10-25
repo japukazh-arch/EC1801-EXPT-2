@@ -107,18 +107,30 @@ A DVE environment will open.
 
 # DVE Waveform Verification
 In DVE:
+
 Open the testbench hierarchy.
-Locate the signals: 
+
+Locate the signals:
 a
+
 b
+
 y_and
+
 y_or
+
 y_not
+
 Add the signals to the waveform window.
+
 Run/inspect the waveform.
+
 Verify that y_and = 1 only when a=1 AND b=1 — the single combination where both inputs are high.
+
 Verify that y_or = 1 whenever a=1 OR b=1 (any input high forces the output high).
+
 Verify that y_not is always the exact complement of a, regardless of b.
+
 The waveform should agree with the truth table.
 
 
