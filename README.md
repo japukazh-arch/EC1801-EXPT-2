@@ -22,7 +22,9 @@ logic_gates.v	Logic-gate RTL
 logic_gates_tb.v	All input combinations and VCD generation
 # Verilog  Program
 ~~~
- module basic_gates (
+// gedit basic_gates.v
+
+module basic_gates (
     input  wire a,
     input  wire b,
     output wire y_and,
@@ -39,7 +41,9 @@ endmodule
 
 # **Test Bench Program**
 ~~~
-reg a, b;
+module tb2;
+
+    reg a, b;
     wire y_and, y_or, y_not;
 
     // Instantiate the design under test (DUT)
@@ -117,7 +121,6 @@ Verify that y_or = 1 whenever a=1 OR b=1 (any input high forces the output high)
 Verify that y_not is always the exact complement of a, regardless of b.
 The waveform should agree with the truth table.
 
-<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/df2e5d48-6aae-4d17-a616-2b260db5f2b6" />
 
 # Expected Result
 The basic logic gates — AND, OR, and NOT — were realized using Verilog HDL:
@@ -125,7 +128,6 @@ Y_AND = A.B
 Y_OR = A+B
 Y_NOT = A'
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
-Output
 # OUTPUT
 
 
