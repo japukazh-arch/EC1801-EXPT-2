@@ -10,9 +10,9 @@ To design, implement, and verify the functionality of basic AND, OR, and NOT log
 # Boolean Function
 The basic logic gates realize the following Boolean functions:
 
-•	AND: Y_AND = A . B
-•	OR: Y_OR = A + B
-•	NOT: Y_NOT = A'
+•	AND: Y_AND = A . B 
+•	OR: Y_OR = A + B 
+•	NOT: Y_NOT = A' 
 
 # Theory / Synopsis
 Logic gates are the basic building blocks of digital systems. NAND and NOR are universal gates. XOR produces 1 when its inputs differ, while XNOR produces 1 when its inputs are equal.
@@ -111,6 +111,7 @@ In DVE:
 Open the testbench hierarchy.
 
 Locate the signals:
+
 a
 
 b
@@ -136,16 +137,16 @@ The waveform should agree with the truth table.
 
 # Expected Result
 The basic logic gates — AND, OR, and NOT — were realized using Verilog HDL:
-Y_AND = A.B
-Y_OR = A+B
-Y_NOT = A'
-The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
+Y_AND = A.B 
+Y_OR = A+B 
+Y_NOT = A' 
 # OUTPUT
 
 
 <img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/df2e5d48-6aae-4d17-a616-2b260db5f2b6" />
 
- 
+
+ The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 # Viva-Voce Questions
 
 •	What is a logic gate?
